@@ -1,0 +1,87 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tiled_algs.aux
+The style file: plain.bst
+Database file #1: ../tiled_algs.bib
+Warning--I didn't find a database entry for "cell_chol"
+Warning--I didn't find a database entry for "tiledqr"
+Warning--I didn't find a database entry for "Kurzak:2006:ILA"
+Warning--I didn't find a database entry for "top500"
+Warning--I didn't find a database entry for "isscc_2005_cell_desing"
+Warning--I didn't find a database entry for "polaris"
+Warning--I didn't find a database entry for "76287"
+Warning--I didn't find a database entry for "essl01"
+Warning--I didn't find a database entry for "lapack:99"
+Warning--I didn't find a database entry for "scalapack:96"
+Warning--I didn't find a database entry for "552704"
+Warning--I didn't find a database entry for "gotoblas"
+Warning--I didn't find a database entry for "mkl"
+Warning--I didn't find a database entry for "ATLAS"
+Warning--I didn't find a database entry for "666023"
+Warning--I didn't find a database entry for "kag-gus"
+Warning--I didn't find a database entry for "279535"
+Warning--I didn't find a database entry for "vdgqr"
+Warning--I didn't find a database entry for "1248397"
+Warning--I didn't find a database entry for "para06"
+Warning--I didn't find a database entry for "670985"
+Warning--I didn't find a database entry for "1014508"
+Warning--I didn't find a database entry for "jordan"
+Warning--I didn't find a database entry for "hep"
+Warning--I didn't find a database entry for "three"
+Warning--I didn't find a database entry for "golubvanloan"
+Warning--I didn't find a database entry for "stew:98"
+Warning--I didn't find a database entry for "yip_ooc"
+Warning--I didn't find a database entry for "DBLP:conf/para/JoffrainQG04"
+Warning--I didn't find a database entry for "vdgooclu"
+Warning--I didn't find a database entry for "1055534"
+Warning--I didn't find a database entry for "210517"
+Warning--I didn't find a database entry for "64889"
+Warning--I didn't find a database entry for "wilk:65"
+Warning--I didn't find a database entry for "reid:71"
+Warning--I didn't find a database entry for "gaps:90"
+Warning--I didn't find a database entry for "hihi:89"
+Warning--I didn't find a database entry for "trsc:90"
+Warning--I didn't find a database entry for "sore:85"
+Warning--I didn't find a database entry for "matrixmarket"
+You've used 0 entries,
+            2118 wiz_defined-function locations,
+            540 strings with 4370 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 40 warnings)

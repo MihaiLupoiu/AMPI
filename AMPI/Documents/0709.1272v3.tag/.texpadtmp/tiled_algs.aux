@@ -1,0 +1,138 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{cell_chol,tiledqr,Kurzak:2006:ILA}
+\citation{top500}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\citation{isscc_2005_cell_desing}
+\citation{polaris}
+\citation{cell_chol}
+\citation{76287,essl01}
+\citation{lapack:99}
+\citation{scalapack:96}
+\citation{552704}
+\citation{gotoblas}
+\citation{mkl}
+\citation{ATLAS}
+\citation{essl01}
+\citation{666023}
+\@writefile{toc}{\contentsline {section}{\numberline {2}The LAPACK and ScaLAPACK libraries and their scalability limits}{3}{section.2}}
+\newlabel{sec:lapack}{{2}{3}{The LAPACK and ScaLAPACK libraries and their scalability limits}{section.2}{}}
+\citation{kag-gus,279535}
+\citation{76287,essl01}
+\citation{vdgqr,1248397}
+\citation{Kurzak:2006:ILA,para06,1248397,cell_chol}
+\citation{Kurzak:2006:ILA,para06}
+\citation{Kurzak:2006:ILA,para06}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Transition from sequential algorithms that rely on parallel BLAS to parallel algorithms.}}{4}{figure.1}}
+\newlabel{fig:par_algos}{{1}{4}{Transition from sequential algorithms that rely on parallel BLAS to parallel algorithms}{figure.1}{}}
+\citation{670985,1014508}
+\citation{1248397,tiledqr}
+\citation{1014508,670985}
+\citation{Kurzak:2006:ILA,para06}
+\citation{jordan,hep}
+\citation{cell_chol,1248397,three,1014508}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Fine Granularity Algorithms for the Cholesky, LU and QR Factorizations}{5}{section.3}}
+\newlabel{sec:tiled}{{3}{5}{Fine Granularity Algorithms for the Cholesky, LU and QR Factorizations}{section.3}{}}
+\citation{670985}
+\citation{golubvanloan,stew:98}
+\citation{yip_ooc}
+\citation{DBLP:conf/para/JoffrainQG04,vdgooclu,1055534}
+\citation{210517}
+\citation{tiledqr}
+\citation{tiledqr}
+\citation{1055534}
+\citation{1055534}
+\citation{vdgqr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}A Tiled Algorithm for the Cholesky Factorization}{6}{subsection.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}A Tiled Algorithm for the LU and QR Factorizations}{6}{subsection.3.2}}
+\citation{vdgooclu}
+\citation{64889}
+\newlabel{alg:blkchol}{{1}{7}{A Tiled Algorithm for the Cholesky Factorization}{algorithm.1}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Tiled Cholesky factorization}}{7}{algorithm.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Tiled Algorithm for the QR Factorization}{7}{subsubsection.3.2.1}}
+\newlabel{alg:blkqr}{{2}{9}{Tiled Algorithm for the QR Factorization}{algorithm.2}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces The tiled algorithm for QR factorization.}}{9}{algorithm.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Tiled Algorithm for the LU Factorization}{9}{subsubsection.3.2.2}}
+\citation{1055534}
+\citation{1055534}
+\citation{DBLP:conf/para/JoffrainQG04,vdgooclu,1055534,tiledqr,vdgqr}
+\citation{DBLP:conf/para/JoffrainQG04,vdgooclu,1055534,vdgqr}
+\newlabel{alg:blklu}{{3}{10}{Tiled Algorithm for the LU Factorization}{algorithm.3}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces The tiled algorithm for LU factorization.}}{10}{algorithm.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Graphical representation of one repetition of the outer loop in Algorithms\nobreakspace  {}\ref  {alg:blkqr} and\nobreakspace  {}\ref  {alg:blklu} on a matrix with $p=q=3$. A thick border shows the tiles that are being read and a gray fill shows the tiles that are being written at each step. As expected the picture is very similar to the out-of-core algorithm presented in\nobreakspace  {}\cite  {1055534}. }}{11}{figure.2}}
+\newlabel{fig:blk_alg}{{2}{11}{Graphical representation of one repetition of the outer loop in Algorithms~\ref {alg:blkqr} and~\ref {alg:blklu} on a matrix with $p=q=3$. A thick border shows the tiles that are being read and a gray fill shows the tiles that are being written at each step. As expected the picture is very similar to the out-of-core algorithm presented in~\cite {1055534}}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Reducing the Cost of the Tiled Algorithms for the QR and LU Factorization}{11}{subsubsection.3.2.3}}
+\newlabel{sec:cost}{{3.2.3}{11}{Reducing the Cost of the Tiled Algorithms for the QR and LU Factorization}{subsubsection.3.2.3}{}}
+\citation{DBLP:conf/para/JoffrainQG04,vdgooclu,1055534,tiledqr,vdgqr}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Details of the computation and accumulation of transformations in \texttt  {DTSQRT} and their application in \texttt  {DSSRFB}.}}{12}{figure.3}}
+\newlabel{fig:inner_blk}{{3}{12}{Details of the computation and accumulation of transformations in \texttt {DTSQRT} and their application in \texttt {DSSRFB}}{figure.3}{}}
+\citation{tiledqr}
+\citation{wilk:65}
+\citation{DBLP:conf/para/JoffrainQG04,vdgooclu,reid:71,yip_ooc}
+\citation{gaps:90}
+\citation{hihi:89,trsc:90}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}Stability of the Tiled Algorithm for the LU Factorization}{13}{subsubsection.3.2.4}}
+\newlabel{sec:stability}{{3.2.4}{13}{Stability of the Tiled Algorithm for the LU Factorization}{subsubsection.3.2.4}{}}
+\newlabel{eq:GEPP}{{1}{14}{Stability of the Tiled Algorithm for the LU Factorization}{equation.3.1}{}}
+\newlabel{eq:GETWP}{{2}{14}{Stability of the Tiled Algorithm for the LU Factorization}{equation.3.2}{}}
+\newlabel{eq:GEPPcompact}{{3}{14}{Stability of the Tiled Algorithm for the LU Factorization}{equation.3.3}{}}
+\newlabel{eq:formula N}{{4}{14}{Stability of the Tiled Algorithm for the LU Factorization}{equation.3.4}{}}
+\newlabel{eq:GETWPcompact}{{5}{14}{Stability of the Tiled Algorithm for the LU Factorization}{equation.3.5}{}}
+\citation{sore:85}
+\citation{trsc:90}
+\citation{vdgooclu}
+\@writefile{toc}{\contentsline {paragraph}{Random matrices.}{15}{section*.1}}
+\citation{matrixmarket}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  We take a sample of 10 random matrices of size $n=2048$. On the left, we plot the mean backward error obtained for the GETPW factorization and the mean backward error for the solution when solving a linear system of equations with the GETPW factorization with a random right-hand side. In the x-axis, we make the tile size ($b$) decrease from $b=n=2048$ (corresponds to $p=1$) to $b=16$ (corresponds to $p=128$). On the right, we plot the mean of various relevant quantities for the GETPW factorization. }}{16}{figure.4}}
+\newlabel{fig:random_nb_n2048}{{4}{16}{We take a sample of 10 random matrices of size $n=2048$. On the left, we plot the mean backward error obtained for the GETPW factorization and the mean backward error for the solution when solving a linear system of equations with the GETPW factorization with a random right-hand side. In the x-axis, we make the tile size ($b$) decrease from $b=n=2048$ (corresponds to $p=1$) to $b=16$ (corresponds to $p=128$). On the right, we plot the mean of various relevant quantities for the GETPW factorization}{figure.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Matrix Market matrices.}{16}{section*.2}}
+\citation{matrixmarket}
+\citation{matrixmarket}
+\citation{Kurzak:2006:ILA,para06,tiledqr}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Graph driven asynchronous execution}{17}{section.4}}
+\newlabel{sec:async}{{4}{17}{Graph driven asynchronous execution}{section.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  Histogram representing the distribution of the ratio $\delimiter "026B30D  y - A x_{\textsc  {\relax \fontsize  {5}{6}\selectfont  wp}} \delimiter "026B30D _\infty /(\delimiter "026B30D  A \delimiter "026B30D _\infty \delimiter "026B30D x_{\textsc  {\relax \fontsize  {5}{6}\selectfont  wp}}\delimiter "026B30D _\infty )$ for GETWP over $\delimiter "026B30D  y - A x_{\textsc  {\relax \fontsize  {5}{6}\selectfont  pp}} \delimiter "026B30D _\infty /(\delimiter "026B30D  A \delimiter "026B30D _\infty \delimiter "026B30D x_{\textsc  {\relax \fontsize  {5}{6}\selectfont  pp}}\delimiter "026B30D _\infty )$ for GEPP (left) and the ratio of $\delimiter "026B30D  A - N_{\textsc  {\relax \fontsize  {5}{6}\selectfont  wp}} U_{\textsc  {\relax \fontsize  {5}{6}\selectfont  wp}} \delimiter "026B30D _\infty /\delimiter "026B30D  A \delimiter "026B30D _\infty $ for GETWP over $\delimiter "026B30D  PA - L_{\textsc  {\relax \fontsize  {5}{6}\selectfont  pp}} U_{\textsc  {\relax \fontsize  {5}{6}\selectfont  pp}} \delimiter "026B30D _\infty /\delimiter "026B30D  A \delimiter "026B30D _\infty $ for GEPP (right). Matrices are taken from the Matrix-Market collection\nobreakspace  {}\cite  {matrixmarket} and right-hand sides are random. }}{18}{figure.5}}
+\newlabel{fig:market_res_003}{{5}{18}{Histogram representing the distribution of the ratio $\| y - A x_{\textsc {\tiny wp}} \|_\infty /(\| A \|_\infty \|x_{\textsc {\tiny wp}}\|_\infty )$ for GETWP over $\| y - A x_{\textsc {\tiny pp}} \|_\infty /(\| A \|_\infty \|x_{\textsc {\tiny pp}}\|_\infty )$ for GEPP (left) and the ratio of $\| A - N_{\textsc {\tiny wp}} U_{\textsc {\tiny wp}} \|_\infty /\| A \|_\infty $ for GETWP over $\| PA - L_{\textsc {\tiny pp}} U_{\textsc {\tiny pp}} \|_\infty /\| A \|_\infty $ for GEPP (right). Matrices are taken from the Matrix-Market collection~\cite {matrixmarket} and right-hand sides are random}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The dependency graph of Algorithm\nobreakspace  {}\ref  {alg:blkqr} on a matrix with $p=q=3$.}}{18}{figure.6}}
+\newlabel{fig:qr_dag}{{6}{18}{The dependency graph of Algorithm~\ref {alg:blkqr} on a matrix with $p=q=3$}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The execution flow for dynamic scheduling, out of order execution of Algorithm\nobreakspace  {}\ref  {alg:blkqr}.}}{19}{figure.7}}
+\newlabel{fig:flow}{{7}{19}{The execution flow for dynamic scheduling, out of order execution of Algorithm~\ref {alg:blkqr}}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Implementation Details}{19}{subsection.4.1}}
+\newlabel{sec:implementation}{{4.1}{19}{Implementation Details}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Performance Results}{20}{section.5}}
+\newlabel{sec:perf}{{5}{20}{Performance Results}{section.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Details of the system used for the following performance results.}}{20}{table.1}}
+\newlabel{tab:archs}{{1}{20}{Details of the system used for the following performance results}{table.1}{}}
+\citation{552704}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  Cholesky factorization.}}{21}{figure.8}}
+\newlabel{fig:chol}{{8}{21}{Cholesky factorization}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces  QR factorization.}}{21}{figure.9}}
+\newlabel{fig:qr}{{9}{21}{QR factorization}{figure.9}{}}
+\citation{cell_chol,Kurzak:2006:ILA,para06,tiledqr}
+\citation{1014508,670985,76287,essl01}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces  LU factorization.}}{22}{figure.10}}
+\newlabel{fig:lu}{{10}{22}{LU factorization}{figure.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces  PLASMA software: scalability.}}{22}{figure.11}}
+\newlabel{fig:scal}{{11}{22}{PLASMA software: scalability}{figure.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{22}{section.6}}
+\newlabel{sec:conclusions}{{6}{22}{Conclusions}{section.6}{}}
+\citation{1248397,vdgqr}
+\bibdata{tiled_algs}
+\bibstyle{plain}

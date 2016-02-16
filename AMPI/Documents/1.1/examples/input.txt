@@ -1,0 +1,8 @@
+matfile    cage9.mtx
+qrm_ounit    6                   ! the unit for output messages (if < 0 no output)
+qrm_ordering 4                   ! ordering (1=natural, 2=provided, 3=COLAMD, 4=SCOTCH, 5=Metis)
+qrm_sing     0                   ! singletons (1=yes, 0=no)
+qrm_nb       120                 ! the block size (120 works best on intel)
+qrm_ib       120                 ! internal block size (120 works best on intel)
+qrm_keeph    1                   ! keep H (1=yes, 0=no)
+end

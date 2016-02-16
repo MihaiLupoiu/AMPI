@@ -1,0 +1,105 @@
+## ##############################################################################################
+##
+## Copyright 2012 CNRS, INPT
+##  
+## This file is part of qr_mumps.
+##  
+## qr_mumps is free software: you can redistribute it and/or modify
+## it under the terms of the GNU Lesser General Public License as 
+## published by the Free Software Foundation, either version 3 of 
+## the License, or (at your option) any later version.
+##  
+## qr_mumps is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU Lesser General Public License for more details.
+##  
+## You can find a copy of the GNU Lesser General Public License
+## in the qr_mumps/doc directory.
+##
+## ##############################################################################################
+
+
+## -*- Makefile -*-
+##
+## $Date: 2015-10-27 22:41:03 +0100 (mar., 27 oct. 2015) $
+## $Author: abuttari $
+## $Version: 1.1$
+## $Revision: 1980 $
+##
+
+
+# write here the path to the qr_mumps top directory
+TOPDIR=/path/to/here
+
+LINK    = $(FC)
+
+CC      = gcc
+FC      = gfortran
+
+# remove the -fopenmp flag if you want a sequential version
+FCFLAGS  = -O3 -fopenmp 
+CFLAGS   = -O3 
+
+LDFLAGS  = $(FCFLAGS)
+INCLUDES = -I. 
+CINCLUDES= $(IMETIS) $(ICOLAMD)
+FINCLUDES= $(ISCOTCH)
+
+# this variable is for compilers that need a prefix before the -D flag (i.e., xlf)
+DEFINE_PREPEND = 
+
+# you can specify here what ordering tools you have
+# CDEFS = -Dhave_metis -Dhave_scotch -Dhave_colamd
+# FDEFS = -Dhave_metis -Dhave_scotch -Dhave_colamd
+
+AR = ar -cur
+RANLIB = ranlib
+
+LBLAS    = -L/path/to/blas -lblas
+LLAPACK  = -L/path/to/lapack -llapack
+
+# your COLAMD library
+# LCOLAMD  = -L/path/to/colamd/Lib -lcolamd
+# ICOLAMD  = -I/path/to/colamd/Include -I/path/to/ufconfig
+
+# your METIS library
+# LMETIS   = -L/path/to/metis -lmetis
+# IMETIS   = -I/path/to/metis/include
+
+# your scotch library
+# LSCOTCH  = -L/path/to/scotch/lib -lscotch -lscotcherr
+# ISCOTCH  = -I/path/to/scotch/include
+
+QRM_SLIB = $(TOPDIR)/lib/libsqrm.a
+QRM_DLIB = $(TOPDIR)/lib/libdqrm.a
+QRM_CLIB = $(TOPDIR)/lib/libsqrm.a
+QRM_ZLIB = $(TOPDIR)/lib/libdqrm.a
+QRM_COMMONLIB = $(TOPDIR)/lib/libqrm_common.a
+
+
+# Warning : these rules are only valid with GNU make!
+$(.mod).o:
+
+
+%.o: %.c
+	$(CC)  $(CFLAGS)  $(CINCLUDES) $(INCLUDES) $(CDEFS) $(PREC) -c $<
+%.o: %.f
+	$(FC)  $(FCFLAGS) $(FINCLUDES) $(INCLUDES) $(FDEFS) $(DEFINE_PREPEND)$(PREC) -c $<
+%$(.mod): %.f				       
+	$(FC)  $(FCFLAGS) $(FINCLUDES) $(INCLUDES) $(FDEFS) $(DEFINE_PREPEND)$(PREC) -c $<
+%.o: %.f90				       
+	$(FC)  $(FCFLAGS) $(FINCLUDES) $(INCLUDES) $(FDEFS) $(DEFINE_PREPEND)$(PREC) -c $<
+%$(.mod): %.f90				       
+	$(FC)  $(FCFLAGS) $(FINCLUDES) $(INCLUDES) $(FDEFS) $(DEFINE_PREPEND)$(PREC) -c $<
+%.o: %.F
+	$(FC)  $(FCFLAGS) $(FINCLUDES) $(INCLUDES) $(FDEFS) $(DEFINE_PREPEND)$(PREC) -c $<
+%$(.mod): %.F
+	$(FC)  $(FCFLAGS) $(FINCLUDES) $(INCLUDES) $(FDEFS) $(DEFINE_PREPEND)$(PREC) -c $<
+%.o: %.F90
+	$(FC)  $(FCFLAGS) $(FINCLUDES) $(INCLUDES) $(FDEFS) $(DEFINE_PREPEND)$(PREC) -c $<
+%$(.mod): %.F90
+	$(FC)  $(FCFLAGS) $(FINCLUDES) $(INCLUDES) $(FDEFS) $(DEFINE_PREPEND)$(PREC) -c $<
+
+
+

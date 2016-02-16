@@ -1,0 +1,156 @@
+\begin{thebibliography}{10}
+
+\bibitem{top500}
+\url{http://top500.org}.
+
+\bibitem{mkl}
+\url{http://www.intel.com/cd/software/products/asmo-na/eng/307757.htm}.
+
+\bibitem{polaris}
+Teraflops research chip.
+\newblock \url{http://www.intel.com/research/platform/terascale/teraflops.htm}.
+
+\bibitem{smpss}
+{SMP} {S}uperscalar ({SMPS}s) {U}ser's {M}anual, July 2007.
+\newblock \url{www.bsc.es/media/1002.pdf}.
+
+\bibitem{lapack:99}
+E.~Anderson, Z.~Bai, C.~Bischof, S.~Blackford, J.~Demmel, J.~Dongarra, J.~Du
+  Croz, A.~Greenbaum, S.~Hammarling, A.~McKenney, and D.~Sorensen.
+\newblock {\em {LAPACK} {U}ser's {G}uide}.
+\newblock SIAM, Philadelphia, 3. edition, 1999.
+
+\bibitem{210517}
+M.~W. Berry, J.~J. Dongarra, and Y.~Kim.
+\newblock A parallel algorithm for the reduction of a nonsymmetric matrix to
+  block upper-hessenberg form.
+\newblock {\em Parallel Comput.}, 21(8):1189--1211, 1995.
+
+\bibitem{para06}
+A.~Buttari, J.~Dongarra, J.~Kurzak, J.~Langou, P.~Luszczek, and S.~Tomov.
+\newblock The impact of multicore on math software.
+\newblock In {\em PARA 2006, Ume{\aa} Sweden}, June 2006.
+
+\bibitem{1248397}
+E.~Chan, E.~S. Quintana-Orti, G.~Quintana-Orti, and R.~van~de Geijn.
+\newblock Supermatrix out-of-order scheduling of matrix operations for {SMP}
+  and multi-core architectures.
+\newblock In {\em SPAA '07: Proceedings of the nineteenth annual ACM symposium
+  on Parallel algorithms and architectures}, pages 116--125, New York, NY, USA,
+  2007. ACM Press.
+
+\bibitem{scalapack:96}
+J.~Choi, J.~Demmel, I.~Dhillon, J.~Dongarra, S.~Ostrouchov, A.~Petitet,
+  K.~Stanley, D.~Walker, and R.~C. Whaley.
+\newblock {ScaLAPACK}: A portable linear algebra library for distributed memory
+  computers - design issues and performance.
+\newblock {\em Computer Physics Communications}, 97:1--15, 1996.
+\newblock (also as LAPACK Working Note \#95).
+
+\bibitem{666023}
+J.~Choi, J.~Dongarra, S.~Ostrouchov, A.~Petitet, D.~W. Walker, and R.~Clinton
+  Whaley.
+\newblock A proposal for a set of parallel basic linear algebra subprograms.
+\newblock In {\em PARA '95: Proceedings of the Second International Workshop on
+  Applied Parallel Computing, Computations in Physics, Chemistry and
+  Engineering Science}, pages 107--114, London, UK, 1996. Springer-Verlag.
+
+\bibitem{10.1109/99.660313}
+L.~Dagum and R.~Menon.
+\newblock Open{MP}: An industry-standard {API} for shared-memory programming.
+\newblock {\em IEEE Computational Science and Engineering}, 05(1):46--55, 1998.
+
+\bibitem{mpif1994}
+Message Passing~Interface Forum.
+\newblock {MPI}: {A} {M}essage-{P}assing {I}nterface {S}tandard.
+\newblock {\em The International Journal of Supercomputer Applications and High
+  Performance Computing}, 8, 1994.
+
+\bibitem{golubvanloan}
+G.~Golub and C.~Van~Loan.
+\newblock {\em Matrix Computations}.
+\newblock Johns Hopkins University Press, Baltimore, MD, 3rd edition, 1996.
+
+\bibitem{gotoblas}
+K.~Goto and R.~van~de Geijn.
+\newblock High-performance implementation of the level-3 blas.
+\newblock Technical Report TR-2006-23, The University of Texas at Austin,
+  Department of Computer Sciences., 2006.
+\newblock FLAME Working Note 20.
+
+\bibitem{1055534}
+B.~C. Gunter and R.~A. van~de Geijn.
+\newblock Parallel out-of-core computation and updating of the {QR}
+  factorization.
+\newblock {\em ACM Trans. Math. Softw.}, 31(1):60--78, 2005.
+
+\bibitem{670985}
+F.~G. Gustavson.
+\newblock New generalized data structures for matrices lead to a variety of
+  high performance algorithms.
+\newblock In {\em PPAM '01: Proceedings of the th International Conference on
+  Parallel Processing and Applied Mathematics-Revised Papers}, pages 418--436,
+  London, UK, 2002. Springer-Verlag.
+
+\bibitem{cell_chol}
+J.~Kurzak, A.~Buttari, and J.~Dongarra.
+\newblock Solving systems of linear equations on the {CELL} processor using
+  {C}holesky factorization.
+\newblock Technical Report UT-CS-07-596, Innovative Computing Laboratory,
+  University of Tennessee Knoxville, April 2007.
+
+\bibitem{Kurzak:2006:ILA}
+J.~Kurzak and J.~Dongarra.
+\newblock Implementing linear algebra routines on multi-core processors with
+  pipelining and a look ahead.
+\newblock LAPACK Working Note 178, September 2006.
+\newblock Also available as UT-CS-06-581.
+
+\bibitem{mueller93pthreads}
+F.~Mueller.
+\newblock Pthreads library interface, 1993.
+
+\bibitem{isscc_2005_cell_desing}
+D.~{Pham}, S.~{Asano}, M.~{Bolliger}, M.~N. {Day}, H.~P. {Hofstee}, C.~{Johns},
+  J.~{Kahle}, A.~{Kameyama}, J.~{Keaty}, Y.~{Masubuchi}, M.~{Riley},
+  D.~{Shippy}, D.~{Stasiak}, M.~{Suzuoki}, M.~{Wang}, J.~{Warnock},
+  S.~{Weitzel}, D.~{Wendel}, T.~{Yamazaki}, and K.~{Yazawa}.
+\newblock The design and implementation of a first-generation {CELL} processor.
+\newblock In {\em IEEE International Solid-State Circuits Conference}, pages
+  184--185, 2005.
+
+\bibitem{vdgooclu}
+E.~Quintana-Orti and R.~van~de Geijn.
+\newblock Updating an {LU} factorization with pivoting.
+\newblock Technical Report TR-2006-42, The University of Texas at Austin,
+  Department of Computer Sciences, 2006.
+\newblock FLAME Working Note 21.
+
+\bibitem{64889}
+R.~Schreiber and C.~van Loan.
+\newblock A storage-efficient {WY} representation for products of {H}ouseholder
+  transformations.
+\newblock {\em SIAM J. Sci. Stat. Comput.}, 10(1):53--57, 1989.
+
+\bibitem{stew:98}
+G.~W. Stewart.
+\newblock {\em Matrix Algorithms}, volume~1.
+\newblock SIAM, Philadelphia, 1. edition, 1998.
+
+\bibitem{trefethenbau}
+L.~N. Trefethen and D.~Bau.
+\newblock {\em Numerical Linear Algebra}.
+\newblock {SIAM}, 1997.
+
+\bibitem{ATLAS}
+R.~C. Whaley, A.~Petitet, and J.~Dongarra.
+\newblock Automated empirical optimization of software and the {ATLAS} project.
+\newblock {\em Parallel Computing}, 27(1--2):3--25, 2001.
+
+\bibitem{yip_ooc}
+E.~L. Yip.
+\newblock {FORTRAN} {S}ubroutines for {O}ut-of-{C}ore {S}olutions of {L}arge
+  {C}omplex {L}inear {S}ystems.
+\newblock Technical Report CR-159142, NASA, November 1979.
+
+\end{thebibliography}

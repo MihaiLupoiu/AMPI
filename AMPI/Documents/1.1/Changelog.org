@@ -1,0 +1,4 @@
+* V 1.1
+  - There is no limit to the number of concurrent instances of
+    qrm_spmat_c in the C interface
+  - A number of minor bugfixes

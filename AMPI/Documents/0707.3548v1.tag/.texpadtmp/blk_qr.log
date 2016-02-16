@@ -1,0 +1,741 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.10.20)  15 JAN 2016 17:18
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**blk_qr.tex
+(./blk_qr.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./llncs.cls
+Document Class: llncs 2004/08/17 v2.14 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen108
+\multicolovershoot=\dimen109
+\multicolundershoot=\dimen110
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count95
+)
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 360.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 361.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 370.
+\tocchpnum=\dimen111
+\tocsecnum=\dimen112
+\tocsectotal=\dimen113
+\tocsubsecnum=\dimen114
+\tocsubsectotal=\dimen115
+\tocsubsubsecnum=\dimen116
+\tocsubsubsectotal=\dimen117
+\tocparanum=\dimen118
+\tocparatotal=\dimen119
+\tocsubparanum=\dimen120
+\@tempcntc=\count97
+\fnindent=\dimen121
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen122
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen123
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box54
+\shadowsize=\dimen124
+\@Sbox=\box55
+\do@VerbBox=\toks18
+\the@fancyput=\toks19
+\this@fancyput=\toks20
+\EndVerbatimTokens=\toks21
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2013/05/21 v0.56 LaTeX wrapper for `PSTricks' (RN,HV)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pstricks.tex (/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+\XKV@depth=\count116
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/keyval.tex)))) (/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex `pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count117
+\pstFP@xia=\count118
+\pstFP@xib=\count119
+\pstFP@xfa=\count120
+\pstFP@xfb=\count121
+\pstFP@rega=\count122
+\pstFP@regb=\count123
+\pstFP@regs=\count124
+\pstFP@times=\count125
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks24
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks27
+)) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+\pgffor@iter=\dimen125
+\pgffor@skip=\dimen126
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+)
+\psLoopIndex=\count126
+
+`PSTricks' v2.43  <2013/05/12> (tvz)
+\pst@dima=\dimen127
+\pst@dimb=\dimen128
+\pst@dimc=\dimen129
+\pst@dimd=\dimen130
+\pst@dimg=\dimen131
+\pst@dimh=\dimen132
+\pst@dimm=\dimen133
+\pst@dimn=\dimen134
+\pst@dimo=\dimen135
+\pst@dimp=\dimen136
+\pst@hbox=\box56
+\pst@ibox=\box57
+\pst@boxg=\box58
+\pst@cnta=\count127
+\pst@cntb=\count128
+\pst@cntc=\count129
+\pst@cntd=\count130
+\pst@cntg=\count131
+\pst@cnth=\count132
+\pst@cntm=\count133
+\pst@cntn=\count134
+\pst@cnto=\count135
+\pst@cntp=\count136
+\@zero=\count137
+\pst@toks=\toks30
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen137
+\psxunit=\dimen138
+\psyunit=\dimen139
+\pst@C@@rType=\count138
+\pslinewidth=\dimen140
+\psk@startLW=\dimen141
+\psk@endLW=\dimen142
+\pst@customdefs=\toks31
+\pslinearc=\dimen143
+\pst@symbolStep=\dimen144
+\pst@symbolWidth=\dimen145
+\pst@symbolLinewidth=\dimen146
+\everypsbox=\toks32
+\psframesep=\dimen147
+\pslabelsep=\dimen148
+\sh@wgridXunit=\dimen149
+\sh@wgridYunit=\dimen150
+\pst@shift=\dimen151
+\theoverlaybox=\box59
+)
+File: pstricks.tex 2013/05/12 v2.43 `PSTricks' (tvz,hv)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2013/05/12 v2.43 `PST-fp' (hv)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count139
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks33
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count140
+\float@exts=\toks34
+\float@box=\box60
+\@float@everytoks=\toks35
+\@floatcapt=\box61
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks36
+\c@algorithm=\count141
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count142
+\c@ALC@line=\count143
+\c@ALC@rem=\count144
+\c@ALC@depth=\count145
+\ALC@tlm=\skip45
+\algorithmicindent=\skip46
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks37
+\ex@=\dimen154
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen155
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count146
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count147
+\leftroot@=\count148
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count149
+\DOTSCASE@=\count150
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box62
+\strutbox@=\box63
+\big@size=\dimen156
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count151
+\c@MaxMatrixCols=\count152
+\dotsspace@=\muskip10
+\c@parentequation=\count153
+\dspbrk@lvl=\count154
+\tag@help=\toks38
+\row@=\count155
+\column@=\count156
+\maxfields@=\count157
+\andhelp@=\toks39
+\eqnshift@=\dimen157
+\alignsep@=\dimen158
+\tagshift@=\dimen159
+\tagwidth@=\dimen160
+\totwidth@=\dimen161
+\lineht@=\dimen162
+\@envbody=\toks40
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip50
+\bibsep=\skip51
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count158
+) (/Users/myhay/Desktop/0707.3548v1.tag/.texpadtmp/blk_qr.aux)
+\openout1 = `blk_qr.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count159
+\scratchdimen=\dimen163
+\scratchbox=\box64
+\nofMPsegments=\count160
+\nofMParguments=\count161
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count162
+\MPscratchDim=\dimen164
+\MPnumerator=\count163
+\makeMPintoPDFobject=\count164
+\everyMPtoPDFconversion=\toks43
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package natbib Warning: Citation `top500' on page 1 undefined on input line 81.
+
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+
+Non-PDF special ignored!
+Non-PDF special ignored!{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `isscc_2005_cell_desing' on page 2 undefined on input line 108.
+
+
+Package natbib Warning: Citation `polaris' on page 2 undefined on input line 109.
+
+
+Package natbib Warning: Citation `lapack:99' on page 2 undefined on input line 119.
+
+
+Package natbib Warning: Citation `scalapack:96' on page 2 undefined on input line 119.
+
+
+Package natbib Warning: Citation `ATLAS' on page 2 undefined on input line 127.
+
+
+Package natbib Warning: Citation `gotoblas' on page 2 undefined on input line 127.
+
+
+Package natbib Warning: Citation `mkl' on page 2 undefined on input line 128.
+
+
+Package natbib Warning: Citation `mueller93pthreads' on page 2 undefined on input line 130.
+
+
+Package natbib Warning: Citation `10.1109/99.660313' on page 2 undefined on input line 130.
+
+<images/par_algos.pdf, id=13, 741.77126pt x 343.2825pt>
+File: images/par_algos.pdf Graphic file (type pdf)
+ <use images/par_algos.pdf>
+Package pdftex.def Info: images/par_algos.pdf used on input line 135.
+(pdftex.def)             Requested size: 347.12354pt x 160.64612pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `666023' on page 2 undefined on input line 142.
+
+
+Package natbib Warning: Citation `mpif1994' on page 2 undefined on input line 143.
+
+
+Package natbib Warning: Citation `Kurzak:2006:ILA' on page 2 undefined on input line 154.
+
+
+Package natbib Warning: Citation `para06' on page 2 undefined on input line 154.
+
+
+Package natbib Warning: Citation `1248397' on page 2 undefined on input line 154.
+
+
+Package natbib Warning: Citation `cell_chol' on page 2 undefined on input line 158.
+
+[2]
+
+Package natbib Warning: Citation `golubvanloan' on page 3 undefined on input line 184.
+
+
+Package natbib Warning: Citation `trefethenbau' on page 3 undefined on input line 184.
+
+
+Package natbib Warning: Citation `stew:98' on page 3 undefined on input line 184.
+
+
+Package natbib Warning: Citation `64889' on page 3 undefined on input line 191.
+
+[3 <./images/par_algos.pdf>]
+
+Package natbib Warning: Citation `64889' on page 4 undefined on input line 250.
+
+[4]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Kurzak:2006:ILA' on page 5 undefined on input line 355.
+
+
+Package natbib Warning: Citation `para06' on page 5 undefined on input line 355.
+
+
+Package natbib Warning: Citation `Kurzak:2006:ILA' on page 5 undefined on input line 356.
+
+
+Package natbib Warning: Citation `para06' on page 5 undefined on input line 356.
+
+
+Package natbib Warning: Citation `Kurzak:2006:ILA' on page 5 undefined on input line 368.
+
+[5]
+Overfull \hbox (2.34926pt too wide) in paragraph at lines 373--377
+[]\OT1/cmr/m/n/10 The fol-low-ing sec-tions de-scribe the ap-pli-ca-tion of this idea of dy-namic schedul-
+ []
+
+
+Package natbib Warning: Citation `Kurzak:2006:ILA' on page 6 undefined on input line 385.
+
+
+Package natbib Warning: Citation `1248397' on page 6 undefined on input line 385.
+
+
+Package natbib Warning: Citation `para06' on page 6 undefined on input line 385.
+
+
+Package natbib Warning: Citation `golubvanloan' on page 6 undefined on input line 395.
+
+
+Package natbib Warning: Citation `stew:98' on page 6 undefined on input line 395.
+
+
+Package natbib Warning: Citation `yip_ooc' on page 6 undefined on input line 398.
+
+
+Package natbib Warning: Citation `vdgooclu' on page 6 undefined on input line 399.
+
+
+Package natbib Warning: Citation `1055534' on page 6 undefined on input line 399.
+
+
+Package natbib Warning: Citation `210517' on page 6 undefined on input line 401.
+
+[6]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 416.
+ [7] <images/blk_alg_col.pdf, id=48, 459.7175pt x 485.815pt>
+File: images/blk_alg_col.pdf Graphic file (type pdf)
+ <use images/blk_alg_col.pdf>
+Package pdftex.def Info: images/blk_alg_col.pdf used on input line 548.
+(pdftex.def)             Requested size: 347.12354pt x 366.85109pt.
+
+
+Package natbib Warning: Citation `1055534' on page 8 undefined on input line 553.
+
+
+Package natbib Warning: Citation `1055534' on page 8 undefined on input line 553.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./images/blk_alg_col.pdf>]
+
+Package natbib Warning: Citation `Kurzak:2006:ILA' on page 10 undefined on input line 623.
+
+
+Package natbib Warning: Citation `para06' on page 10 undefined on input line 623.
+
+<images/qr_dag_3x3_color.pdf, id=62, 782.925pt x 531.9875pt>
+File: images/qr_dag_3x3_color.pdf Graphic file (type pdf)
+ <use images/qr_dag_3x3_color.pdf>
+Package pdftex.def Info: images/qr_dag_3x3_color.pdf used on input line 636.
+(pdftex.def)             Requested size: 347.12354pt x 235.86919pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10] <images/qr_flow_neumann_color.pdf, id=66, 652.4375pt x 257.96375pt>
+File: images/qr_flow_neumann_color.pdf Graphic file (type pdf)
+ <use images/qr_flow_neumann_color.pdf>
+Package pdftex.def Info: images/qr_flow_neumann_color.pdf used on input line 665.
+(pdftex.def)             Requested size: 347.12354pt x 137.25151pt.
+ [11 <./images/qr_dag_3x3_color.pdf> <./images/qr_flow_neumann_color.pdf>] <images/bdl.pdf, id=74, 403.5075pt x 162.6075pt>
+File: images/bdl.pdf Graphic file (type pdf)
+ <use images/bdl.pdf>
+Package pdftex.def Info: images/bdl.pdf used on input line 688.
+(pdftex.def)             Requested size: 242.98541pt x 97.92006pt.
+
+
+Package natbib Warning: Citation `670985' on page 12 undefined on input line 701.
+
+
+Package natbib Warning: Citation `1248397' on page 12 undefined on input line 701.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 719.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 719.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./images/bdl.pdf>] <images/goto_opt_16.pdf, id=81, 513.92pt x 423.5825pt>
+File: images/goto_opt_16.pdf Graphic file (type pdf)
+ <use images/goto_opt_16.pdf>
+Package pdftex.def Info: images/goto_opt_16.pdf used on input line 763.
+(pdftex.def)             Requested size: 173.56177pt x 143.0531pt.
+ <images/goto_opt_scal.pdf, id=82, 502.87875pt x 423.5825pt>
+File: images/goto_opt_scal.pdf Graphic file (type pdf)
+ <use images/goto_opt_scal.pdf>
+Package pdftex.def Info: images/goto_opt_scal.pdf used on input line 769.
+(pdftex.def)             Requested size: 173.56177pt x 146.19429pt.
+
+Overfull \hbox (11.22426pt too wide) in paragraph at lines 761--776
+[]$[]$   $[]$ 
+ []
+
+<images/goto_clov_8.pdf, id=83, 513.92pt x 423.5825pt>
+File: images/goto_clov_8.pdf Graphic file (type pdf)
+ <use images/goto_clov_8.pdf>
+Package pdftex.def Info: images/goto_clov_8.pdf used on input line 782.
+(pdftex.def)             Requested size: 173.56177pt x 143.0531pt.
+ <images/goto_clov_scal.pdf, id=84, 498.86375pt x 423.5825pt>
+File: images/goto_clov_scal.pdf Graphic file (type pdf)
+ <use images/goto_clov_scal.pdf>
+Package pdftex.def Info: images/goto_clov_scal.pdf used on input line 788.
+(pdftex.def)             Requested size: 173.56177pt x 147.37062pt.
+
+Overfull \hbox (11.22426pt too wide) in paragraph at lines 780--795
+[]$[]$   $[]$ 
+ []
+
+<images/mkl_opt_16.pdf, id=85, 513.92pt x 423.5825pt>
+File: images/mkl_opt_16.pdf Graphic file (type pdf)
+ <use images/mkl_opt_16.pdf>
+Package pdftex.def Info: images/mkl_opt_16.pdf used on input line 801.
+(pdftex.def)             Requested size: 173.56177pt x 143.0531pt.
+ <images/mkl_opt_scal.pdf, id=86, 502.87875pt x 423.5825pt>
+File: images/mkl_opt_scal.pdf Graphic file (type pdf)
+ <use images/mkl_opt_scal.pdf>
+Package pdftex.def Info: images/mkl_opt_scal.pdf used on input line 807.
+(pdftex.def)             Requested size: 173.56177pt x 146.19429pt.
+
+Overfull \hbox (11.22426pt too wide) in paragraph at lines 799--814
+[]$[]$   $[]$ 
+ []
+
+<images/mkl_clov_8.pdf, id=87, 513.92pt x 423.5825pt>
+File: images/mkl_clov_8.pdf Graphic file (type pdf)
+ <use images/mkl_clov_8.pdf>
+Package pdftex.def Info: images/mkl_clov_8.pdf used on input line 820.
+(pdftex.def)             Requested size: 173.56177pt x 143.0531pt.
+ <images/mkl_clov_scal.pdf, id=88, 498.86375pt x 423.5825pt>
+File: images/mkl_clov_scal.pdf Graphic file (type pdf)
+ <use images/mkl_clov_scal.pdf>
+Package pdftex.def Info: images/mkl_clov_scal.pdf used on input line 826.
+(pdftex.def)             Requested size: 173.56177pt x 147.37062pt.
+
+Overfull \hbox (11.22426pt too wide) in paragraph at lines 818--833
+[]$[]$   $[]$ 
+ []
+
+[13] [14 <./images/goto_opt_16.pdf> <./images/goto_opt_scal.pdf> <./images/goto_clov_8.pdf> <./images/goto_clov_scal.pdf>] [15 <./images/mkl_opt_16.pdf> <./images/mkl_opt_scal.pdf> <./images/mkl_clov_8.pdf> <./images/mkl_clov_scal.pdf>]
+
+Package natbib Warning: Citation `yip_ooc' on page 16 undefined on input line 889.
+
+
+Package natbib Warning: Citation `vdgooclu' on page 16 undefined on input line 889.
+
+
+Package natbib Warning: Citation `1248397' on page 16 undefined on input line 906.
+
+[16]
+Overfull \hbox (17.25114pt too wide) in paragraph at lines 921--926
+[]\OT1/cmr/m/n/10 The fact
+ []
+
+
+Overfull \hbox (11.53737pt too wide) in paragraph at lines 927--935
+[]\OT1/cmr/m/n/10 In the STI
+ []
+
+
+Package natbib Warning: Citation `smpss' on page 17 undefined on input line 940.
+
+(/Users/myhay/Desktop/0707.3548v1.tag/.texpadtmp/blk_qr.bbl [17]
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+[18
+
+] (/Users/myhay/Desktop/0707.3548v1.tag/.texpadtmp/blk_qr.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6275 strings out of 493315
+ 89006 string characters out of 6137903
+ 191320 words of memory out of 5000000
+ 9599 multiletter control sequences out of 15000+600000
+ 11293 words of font info for 44 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,16n,51p,533b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on /Users/myhay/Desktop/0707.3548v1.tag/.texpadtmp/blk_qr.pdf (18 pages, 311626 bytes).
+PDF statistics:
+ 202 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

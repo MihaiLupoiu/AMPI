@@ -1,0 +1,82 @@
+\relax 
+\citation{top500}
+\@writefile{toc}{\contentsline {title}{Parallel Tiled QR Factorization for Multicore Architectures}{1}}
+\@writefile{toc}{\authcount {1}}
+\@writefile{toc}{\contentsline {author}{Alfredo Buttari\unskip {}, Julien Langou\unskip {}, Jakub Kurzak\unskip {}, Jack Dongarra\unskip {}\unskip {} }{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{isscc_2005_cell_desing}
+\citation{polaris}
+\citation{lapack:99}
+\citation{scalapack:96}
+\citation{ATLAS}
+\citation{gotoblas}
+\citation{mkl}
+\citation{mueller93pthreads}
+\citation{10.1109/99.660313}
+\citation{666023}
+\citation{mpif1994}
+\citation{Kurzak:2006:ILA,para06,1248397}
+\citation{cell_chol}
+\citation{golubvanloan,trefethenbau,stew:98}
+\citation{64889}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Transition from sequential algorithms that rely on parallel BLAS to parallel algorithms.}}{3}}
+\newlabel{fig:par_algos}{{1}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Block QR Factorization}{3}}
+\newlabel{sec:lapack}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Description of the block QR Factorization}{3}}
+\citation{64889}
+\newlabel{eq:lap_qr0}{{1}{4}}
+\newlabel{eq:lap_qr1}{{2}{4}}
+\newlabel{eq:lap_qr2}{{3}{4}}
+\citation{Kurzak:2006:ILA,para06}
+\citation{Kurzak:2006:ILA,para06}
+\citation{Kurzak:2006:ILA}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Scalability limits of the LAPACK implementation}{5}}
+\citation{Kurzak:2006:ILA,1248397,para06}
+\citation{golubvanloan,stew:98}
+\citation{yip_ooc}
+\citation{vdgooclu,1055534}
+\citation{210517}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Scalability of the fork-join parallelization on a 8-way dual Opteron system (sixteen cores total).}}{6}}
+\newlabel{tab:blas2}{{1}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Tiled QR Factorization}{6}}
+\newlabel{sec:tiled}{{3}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}A Fine-Grain Algorithm for QR Factorization}{7}}
+\citation{1055534}
+\citation{1055534}
+\newlabel{alg:blkqr}{{1}{8}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces The block algorithm for QR factorization.}}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Operation count}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Graphical representation of one repetition of the outer loop in Algorithm\nobreakspace  {}1\hbox {} on a matrix with $p=q=3$. As expected the picture is very similar to the out-of-core algorithm presented in\nobreakspace  {}\cite  {1055534}. }}{9}}
+\newlabel{fig:blk_alg}{{2}{9}}
+\citation{Kurzak:2006:ILA,para06}
+\newlabel{eq:opcount}{{4}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Graph driven asynchronous execution}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The dependency graph of Algorithm\nobreakspace  {}1\hbox {} on a matrix with $p=q=3$.}}{11}}
+\newlabel{fig:qr_dag}{{3}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The execution flow for dynamic scheduling, out of order execution of Algorithm\nobreakspace  {}1\hbox {}.}}{11}}
+\newlabel{fig:flow}{{4}{11}}
+\citation{670985}
+\citation{1248397}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Block Data Layout}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces A comparison of Column Major storage format ({\it  left}) and Block Data Layout ({\it  right}).}}{12}}
+\newlabel{fig:bdl}{{5}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Performance Results}{12}}
+\newlabel{sec:perf}{{4}{12}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Details of the systems used for the following performance results.}}{13}}
+\newlabel{tab:archs}{{2}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Comparison between the performance of the block algorithm with dynamic scheduling using GotoBLAS-1.15 on an 8-way dual Opteron system. The dashed curve reports the raw performance of the block algorithm with dynamic scheduling, i.e., the performance as computed with the true operation count in Equation\nobreakspace  {}\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces 4\hbox {}\unskip \@@italiccorr )}}.}}{14}}
+\newlabel{fig:goto_opt}{{6}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Comparison between the performance of the block algorithm with dynamic scheduling using GotoBLAS-1.15 on an 2-way quad Clovertown system. The dashed curve reports the raw performance of the block algorithm with dynamic scheduling, i.e., the performance as computed with the true operation count in Equation\nobreakspace  {}\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces 4\hbox {}\unskip \@@italiccorr )}}.}}{14}}
+\newlabel{fig:goto_clov}{{7}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Comparison between the performance of the block algorithm with dynamic scheduling using MKL-9.1 on an 8-way dual Opteron system. The dashed curve reports the raw performance of the block algorithm with dynamic scheduling, i.e., the performance as computed with the true operation count in Equation\nobreakspace  {}\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces 4\hbox {}\unskip \@@italiccorr )}}.}}{15}}
+\newlabel{fig:mkl_opt}{{8}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Comparison between the performance of the block algorithm with dynamic scheduling using MKL-9.1 on an 2-way quad Clovertown system. The dashed curve reports the raw performance of the block algorithm with dynamic scheduling, i.e., the performance as computed with the true operation count in Equation\nobreakspace  {}\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces 4\hbox {}\unskip \@@italiccorr )}}.}}{15}}
+\newlabel{fig:mkl_clov}{{9}{15}}
+\citation{yip_ooc,vdgooclu}
+\citation{1248397}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{16}}
+\newlabel{sec:future}{{5}{16}}
+\citation{smpss}
+\bibdata{blk_qr}
+\bibstyle{plain}
